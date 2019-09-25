@@ -1,0 +1,17 @@
+.wrapper {
+  display: flex;
+  background-color: rgb(237, 239, 241);;
+  height: 50px;
+  align-items: center;
+}
+
+.cell {
+  flex-grow: 1;
+  width: 16.67%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cell:first-child {
+  padding-left: 10px;
+}
