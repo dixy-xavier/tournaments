@@ -13,7 +13,7 @@ const getValue = (data, path) => {
  *  This function takes date as argument and converts to
  *  format 'DD-MM-YYYY'
  */
-export const formattedDate = date => moment(date).format('DD-MM-YYYY');
+export const formattedDate = date => moment(date).format('D MMM, YYYY');
 
 /**
  *  This function takes an object and key, returns the value
@@ -23,5 +23,5 @@ export const formattedDate = date => moment(date).format('DD-MM-YYYY');
 export const getDisplayValue = (tournament, key) => {
   const value = getValue(tournament, key);
   const isValueDate = key.includes('date_start') || key.includes('date_end');
-  return (isValueDate ? formattedDate(value.split('Z')[0]) : value);
+  return (isValueDate ? formattedDate(value) : value);
 };

@@ -12,7 +12,10 @@ const CalendarContainer = ({ type, date, onChange }) => {
         {formattedDate(date)}
       </Button>
       {displayCalendar && (
-        <Calendar date={date} onChange={onChange}/>
+        <Calendar date={date} onChange={(date) => {
+          onChange(date);
+          toggleCalendar(false);
+        }}/>
       )}
     </div>
   );
