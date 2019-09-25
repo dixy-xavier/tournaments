@@ -1,6 +1,6 @@
 import React from 'react';
 import TournamentHeader from './TournamentHeader/TournamentHeader';
-import Tournaments from './Tournaments';
+import Tournaments from './Tournaments/Tournaments';
 import styles from './TournamentsContainer.css';
 
 const TournamentsContainer = ({ tournaments }) => (

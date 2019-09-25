@@ -1,6 +1,6 @@
 import React from 'react';
 import HEADERS from '../../../Main.constants';
-import { getDisplayValue } from '../../../utils/utils';
+import { getDisplayValue } from '../Tournaments.utilities';
 import styles from './Tournament.css';
 
 const Tournament = ({ tournament }) => (

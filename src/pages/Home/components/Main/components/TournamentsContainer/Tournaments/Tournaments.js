@@ -1,5 +1,5 @@
 import React from 'react';
-import Tournament from './Tournament/Tournament';
+import Tournament from '../Tournament/Tournament';
 import styles from './Tournaments.css';
 
 const Tournaments = ({ tournaments }) => (

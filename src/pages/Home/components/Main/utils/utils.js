@@ -2,8 +2,6 @@
  *  This function takes url path and calls fetch service and
  *  returns a promise which will give the response object
  */
-import moment from 'moment';
-import { getValue } from '../components/TournamentsContainer/Tournaments.utilities';
 
 export const request = async (url) => {
   const response = await fetch(url);
@@ -29,15 +27,4 @@ export const queryObjToSearchStr = (url, queryObj) => {
     queryStr = queryStr.concat('?', firstKey, '=', queryObj[firstKey]);
   }
   return `${url}${keys.reduce((prev, next) => prev.concat('&', next, '=', queryObj[next]), queryStr)}`;
-};
-
-/**
- *  This function takes an object and key, returns the value
- *  corresponding to that key in the object
- *  If the value is a date, it formats the date to 'DD-MM-YYYY' format
- */
-export const getDisplayValue = (tournament, key) => {
-  const value = getValue(tournament, key);
-  const isValueDate = key.includes('date_start') || key.includes('date_end');
-  return (isValueDate ? moment(value.split('Z')[0]).format('DD-MM-YYYY') : value);
 };
