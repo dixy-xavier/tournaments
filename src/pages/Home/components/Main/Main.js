@@ -29,7 +29,11 @@ const Main = () => {
         endDate={endDate}
         setEndDate={setEndDate}
       />
-      <TournamentsContainer tournaments={filteredList} />
+      {filteredList.length ? (
+        <TournamentsContainer tournaments={filteredList} />
+      ) : (
+        <div className={styles.noData}>No matches found</div>
+      )}
     </div>
   );
 };
