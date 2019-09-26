@@ -1,3 +1,6 @@
+import React from 'react';
+import { FaGamepad, FaMapMarkerAlt, FaRegCalendarAlt, FaTrophy } from 'react-icons/fa';
+
 export const tournaments = [
   {
     id: 746,
@@ -10,8 +13,8 @@ export const tournaments = [
       id: 45,
       name: 'Star Series 2019',
       date_start: '2019-01-01',
-      date_end: '2019-06-31'
-    }
+      date_end: '2019-06-31',
+    },
   },
   {
     id: 286,
@@ -24,8 +27,8 @@ export const tournaments = [
       id: 45,
       name: 'Star Series 2019',
       date_start: '2019-01-01',
-      date_end: '2019-06-31'
-    }
+      date_end: '2019-06-31',
+    },
   },
   {
     id: 123,
@@ -38,8 +41,8 @@ export const tournaments = [
       id: 12,
       name: 'Warriors Series 2019',
       date_start: '2019-01-01',
-      date_end: '2019-04-30'
-    }
+      date_end: '2019-04-30',
+    },
   },
   {
     id: 157,
@@ -52,8 +55,8 @@ export const tournaments = [
       id: 45,
       name: 'Star Series 2019',
       date_start: '2019-01-01',
-      date_end: '2019-06-31'
-    }
+      date_end: '2019-06-31',
+    },
   },
   {
     id: 735,
@@ -66,8 +69,8 @@ export const tournaments = [
       id: 45,
       name: 'Star Series 2019',
       date_start: '2019-01-01',
-      date_end: '2019-06-31'
-    }
+      date_end: '2019-06-31',
+    },
   },
   {
     id: 488,
@@ -80,8 +83,8 @@ export const tournaments = [
       id: 12,
       name: 'Warriors Series 2019',
       date_start: '2019-01-01',
-      date_end: '2019-04-30'
-    }
+      date_end: '2019-04-30',
+    },
   },
   {
     id: 775,
@@ -94,8 +97,8 @@ export const tournaments = [
       id: 12,
       name: 'Warriors Series 2019',
       date_start: '2019-01-01',
-      date_end: '2019-04-30'
-    }
+      date_end: '2019-04-30',
+    },
   },
   {
     id: 352,
@@ -108,8 +111,8 @@ export const tournaments = [
       id: 12,
       name: 'Warriors Series 2019',
       date_start: '2019-01-01',
-      date_end: '2019-04-30'
-    }
+      date_end: '2019-04-30',
+    },
   },
   {
     id: 568,
@@ -122,8 +125,8 @@ export const tournaments = [
       id: 17,
       name: 'Moon Series 2019',
       date_start: '2019-07-01',
-      date_end: '2019-12-30'
-    }
+      date_end: '2019-12-30',
+    },
   },
   {
     id: 278,
@@ -136,8 +139,8 @@ export const tournaments = [
       id: 45,
       name: 'Star Series 2019',
       date_start: '2019-01-01',
-      date_end: '2019-06-31'
-    }
+      date_end: '2019-06-31',
+    },
   },
   {
     id: 116,
@@ -150,35 +153,40 @@ export const tournaments = [
       id: 45,
       name: 'Star Series 2019',
       date_start: '2019-01-01',
-      date_end: '2019-06-31'
-    }
-  }
+      date_end: '2019-06-31',
+    },
+  },
 ];
 
-export default  [
+export default [
   {
     id: 1,
     name: ['name'],
     label: 'Name',
+    icon: <FaTrophy />,
   },
   {
     id: 2,
     name: ['city'],
     label: 'City',
+    icon: <FaMapMarkerAlt />,
   },
   {
     id: 3,
     name: ['series', 'name'],
     label: 'Series',
+    icon: <FaGamepad />,
   },
   {
     id: 4,
     name: ['date_start'],
     label: 'Start Date',
+    icon: <FaRegCalendarAlt />,
   },
   {
     id: 5,
     name: ['date_end'],
     label: 'End Date',
-  }
+    icon: <FaRegCalendarAlt />,
+  },
 ];

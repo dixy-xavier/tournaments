@@ -5,7 +5,10 @@ import styles from './TournamentHeader.css';
 const TournamentHeader = () => (
   <div className={styles.wrapper}>
     {HEADERS.map(header => (
-      <div key={header.label} className={styles.cell}>{header.label}</div>
+      <div key={header.label} className={styles.cell}>
+        {header.icon}
+        <span>{header.label}</span>
+      </div>
     ))}
   </div>
 );
