@@ -1,0 +1,81 @@
+.wrapper {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.container {
+  background-color: white;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dialog {
+  position: relative;
+  background-size: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.header {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #494a55;
+}
+
+.content {
+  width: 75%;
+}
+
+.valueWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  align-items: center;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.seriesTitle:after {
+  content: '';
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+
+.value {
+  height: 25px;
+  border-radius: 5px;
+  width: 250px;
+  padding: 0 10px;
+}
+
+.footer {
+  width: 100%;
+  border-top: 1px solid #494a55;
+  display: flex;
+  justify-content: center;
+}
+
+.primary {
+  margin: 10px;
+  width: 100px;
+}
+
+.seriesTitle {
+
+}

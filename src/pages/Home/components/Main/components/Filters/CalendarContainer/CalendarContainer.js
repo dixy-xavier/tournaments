@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { formattedDate } from '../../TournamentsContainer/Tournaments.utilities';
-import Button from './Button/Button';
+import Button from '../../Button/Button';
 import Calendar from './Calendar/Calendar';
 import styles from './CalendarContainer.css';
 
