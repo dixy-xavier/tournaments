@@ -20,24 +20,35 @@ module.exports = {
       loader: 'babel-loader',
     }, {
       test: /\.css$/,
+      exclude: [/index.css/, /react-calendar\/dist\/Calendar.css/],
       use: [{
-        loader: 'style-loader'
+        loader: 'style-loader',
       }, {
         loader: 'css-loader',
         options: {
           sourceMap: true,
           modules: {
-            localIdentName: '[name]__[local]___[hash:base64:5]'
-          }
-        }
-      }]
+            localIdentName: '[name]__[local]___[hash:base64:5]',
+          },
+        },
+      }],
+    }, {
+      test: [/index.css/, /react-calendar\/dist\/Calendar.css/],
+      use: [{
+        loader: 'style-loader',
+      }, {
+        loader: 'css-loader',
+        options: {
+          sourceMap: true,
+        },
+      }],
     }],
   },
   plugins: [
     new HWP(
       {
         template: path.join(__dirname, '/index.html'),
-        hash: true
+        hash: true,
       },
     ),
   ],

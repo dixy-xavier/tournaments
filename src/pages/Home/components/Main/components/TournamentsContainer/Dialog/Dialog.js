@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../../Button/Button';
+import Button from '../../../../Button/Button';
 import { getDisplayValue } from '../Tournaments.utilities';
 import styles from './Dialog.css';
 

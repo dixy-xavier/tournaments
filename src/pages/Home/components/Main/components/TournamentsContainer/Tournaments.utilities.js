@@ -1,4 +1,4 @@
-import moment from 'moment';
+import { formattedDate } from '../../../Home.utilities';
 
 /**
  *  This function takes an object and key path (array of path)
@@ -8,12 +8,6 @@ const getValue = (data, path) => {
   if (path.length === 0) return data;
   else return getValue(data[path[0]], path.slice(1, path.length));
 };
-
-/**
- *  This function takes date as argument and converts to
- *  format 'DD-MM-YYYY'
- */
-export const formattedDate = date => moment(date).format('D MMM, YYYY');
 
 /**
  *  This function takes an object and key, returns the value

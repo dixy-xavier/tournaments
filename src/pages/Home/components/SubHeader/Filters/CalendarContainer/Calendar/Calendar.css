@@ -1,6 +1,7 @@
 .calendar {
   position: absolute;
   background-color: #ffffff;
+  top: 45px;
 }
 
 .calendarWrapper {

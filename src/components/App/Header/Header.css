@@ -1,13 +1,14 @@
 .wrapper {
   display: flex;
   height: 65px;
-  padding: 5px 30px;
+  padding: 0 13px;
   align-items: center;
+  border-bottom: 1px solid #00000017;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
 }
 
 .logo {
-  height: 45px;
+  height: 38px;
 }
 
 .header {
@@ -16,9 +17,8 @@
   letter-spacing: 3px;
   background: var(--theme-color);
   color: #fff;
-  padding: 7px 11px;
+  padding: 18px 20px;
   margin: 0 0 0 15px;
   font-size: 21px;
-  border-radius: 2px;
   word-spacing: 2px;
 }
