@@ -5,6 +5,6 @@
 }
 
 .header {
-  color: #545353;
+  color: var(--theme-color);
   margin: 10px 0;
 }

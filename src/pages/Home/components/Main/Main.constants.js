@@ -13,7 +13,7 @@ export const tournaments = [
       id: 45,
       name: 'Star Series 2019',
       date_start: '2019-01-01',
-      date_end: '2019-06-31',
+      date_end: '2019-06-30',
     },
   },
   {
@@ -27,7 +27,7 @@ export const tournaments = [
       id: 45,
       name: 'Star Series 2019',
       date_start: '2019-01-01',
-      date_end: '2019-06-31',
+      date_end: '2019-06-30',
     },
   },
   {
@@ -36,7 +36,7 @@ export const tournaments = [
     country: 'US',
     city: 'Chicago',
     date_start: '2019-02-24 00:00:00Z0000',
-    date_end: '2019-02-29 23:59:59Z0000',
+    date_end: '2019-02-28 23:59:59Z0000',
     series: {
       id: 12,
       name: 'Warriors Series 2019',
@@ -55,7 +55,7 @@ export const tournaments = [
       id: 45,
       name: 'Star Series 2019',
       date_start: '2019-01-01',
-      date_end: '2019-06-31',
+      date_end: '2019-06-30',
     },
   },
   {
@@ -69,7 +69,7 @@ export const tournaments = [
       id: 45,
       name: 'Star Series 2019',
       date_start: '2019-01-01',
-      date_end: '2019-06-31',
+      date_end: '2019-06-30',
     },
   },
   {
@@ -139,7 +139,7 @@ export const tournaments = [
       id: 45,
       name: 'Star Series 2019',
       date_start: '2019-01-01',
-      date_end: '2019-06-31',
+      date_end: '2019-06-30',
     },
   },
   {
@@ -153,7 +153,7 @@ export const tournaments = [
       id: 45,
       name: 'Star Series 2019',
       date_start: '2019-01-01',
-      date_end: '2019-06-31',
+      date_end: '2019-06-30',
     },
   },
 ];

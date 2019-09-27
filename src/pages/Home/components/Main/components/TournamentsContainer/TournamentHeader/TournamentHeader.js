@@ -7,7 +7,7 @@ const TournamentHeader = () => (
     {HEADERS.map(header => (
       <div key={header.label} className={styles.cell}>
         {header.icon}
-        <span>{header.label}</span>
+        <span className={styles.label}>{header.label}</span>
       </div>
     ))}
   </div>

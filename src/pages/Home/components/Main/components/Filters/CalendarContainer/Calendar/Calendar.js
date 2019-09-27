@@ -7,6 +7,7 @@ const Calendar = ({ date, onChange }) => (
     <ReactCalendar
       value={date}
       onChange={onChange}
+      className={styles.calendarWrapper}
     />
   </div>
 );
