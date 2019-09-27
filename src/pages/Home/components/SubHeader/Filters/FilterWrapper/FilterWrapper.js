@@ -1,9 +1,8 @@
 import React from 'react';
 import styles from './FilterWrapper.css';
 
-const FilterWrapper = ({ label, children }) => (
+const FilterWrapper = ({ children }) => (
   <div className={styles.wrapper}>
-    <span className={styles.label}>{label}</span>
     {children}
   </div>
 );

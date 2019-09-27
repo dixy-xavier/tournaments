@@ -7,9 +7,9 @@ import Calendar from './Calendar/Calendar';
 const CalendarContainer = ({ type, date, onChange }) => {
   const [displayCalendar, toggleCalendar] = useState(false);
   return (
-    <FilterWrapper label={`Select ${type} date`}>
+    <FilterWrapper>
       <Button onClick={() => toggleCalendar(!displayCalendar)}>
-        {formattedDate(date)}
+        {`${type} date: ${formattedDate(date)}`}
       </Button>
       {displayCalendar && (
         <Calendar date={date} onChange={(date) => {
