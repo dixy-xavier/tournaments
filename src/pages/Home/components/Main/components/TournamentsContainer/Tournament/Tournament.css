@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  border-top: 1px solid rgba(164, 179, 183, 0.4);
+  border-top: 1px solid var(--border-color);
 }
 
 .wrapper:first-child {

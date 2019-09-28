@@ -30,7 +30,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  border-bottom: 1px solid var(--dialog-border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .content {
@@ -60,7 +60,7 @@
   position: absolute;
   left: 90px;
   top: 9px;
-  background-color: var(--dialog-border-color);
+  background-color: var(--border-color);
 }
 
 .value {
@@ -72,7 +72,7 @@
 
 .footer {
   width: 100%;
-  border-top: 1px solid var(--dialog-border-color);
+  border-top: 1px solid var(--border-color);
   display: flex;
   justify-content: center;
 }

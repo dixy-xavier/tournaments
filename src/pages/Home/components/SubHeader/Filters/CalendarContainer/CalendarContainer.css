@@ -1,3 +1,8 @@
-.wrapper {
-  position: relative;
+.button {
+  align-items: center;
+  display: flex;
+}
+
+.button svg {
+  margin-right: 10px;
 }

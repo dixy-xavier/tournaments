@@ -4,7 +4,7 @@ import FilterWrapper from '../FilterWrapper/FilterWrapper';
 import styles from './Search.css';
 
 const Search = ({ searchText, onSearch }) => (
-  <FilterWrapper>
+  <FilterWrapper marginRight>
     <FaSearch />
     <input
       className={styles.search}
