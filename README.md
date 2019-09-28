@@ -2,11 +2,15 @@
 UI for listing tournaments
 
 ## Prerequisites
-* node
+* node - for installation visit https://nodejs.org/en/download/
 
-* npm
+* npm - for installation visit https://www.npmjs.com/get-npm
+
+* json-server - for installation run command `npm i -g json-server`
 
 ## Steps to run
+`npm i -g json-server`
+
 `git clone https://github.com/dixy-xavier/tournaments.git`
 
 `cd tournaments`
