@@ -13,7 +13,10 @@ const Filters = ({ searchText, setSearchText, startDate, setStartDate, endDate, 
     <Search searchText={searchText} onSearch={setSearchText} />
     <CalendarContainer type='start' date={startDate} onChange={setStartDate} />
     <CalendarContainer type='end' date={endDate} onChange={setEndDate} />
-    <a href='' className={styles.clear} onClick={clearAll}>Clear All</a>
+    <a href='' className={styles.clear} onClick={e => {
+      clearAll();
+      e.preventDefault();
+    }}>Clear All</a>
   </div>
 );
 
