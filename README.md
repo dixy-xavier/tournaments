@@ -8,7 +8,7 @@ UI for listing tournaments
 
 * json-server - for installation run command `npm i -g json-server`
 
-* Google chrome - for opening the applicatiom
+* Google chrome - for opening the application
 
 ## Steps to run
 `npm i -g json-server`
